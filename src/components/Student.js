@@ -22,7 +22,7 @@ export default function Student() {
       setName(event.target.value);
     } else if(event.target.name==="address"){
       setAddress(event.target.value);
-    }
+    } 
   }
 
   let saveStudent = (event) => {
