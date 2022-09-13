@@ -8,7 +8,7 @@ export default function NavigationBar() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
+      <Container> 
         <Link to="/" className='navbar-brand'>Student Management System</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
