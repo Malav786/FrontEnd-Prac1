@@ -16,7 +16,7 @@ export default function StudentList() {
       .get("http://localhost:8080/listStudents")
       .then((response) => setStudents(response.data))
       .catch((error) => alert(error));
-  };
+  }; 
   return (
     <div className="my-3">
       <Container>
