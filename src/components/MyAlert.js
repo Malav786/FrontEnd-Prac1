@@ -6,3 +6,4 @@ export default function MyAlert(props) {
     props.alert && <Alert variant={props.alert.type}>{props.alert.message}</Alert>
   );
 }
+ 
